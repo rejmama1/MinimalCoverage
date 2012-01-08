@@ -1,0 +1,8 @@
+spouštění programu:
+ruby -I . lib/main.rb
+
+testy
+ruby -I . test/coverage_test.rb
+ruby -I . test/coverage_test2.rb
+
+Dokumentace je ve složce doc
