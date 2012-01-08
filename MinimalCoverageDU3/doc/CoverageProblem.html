@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Class: CoverageProblem</title>
+
+	<link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+	<script src="./js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="class">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="./lib/problem/coverage_problem_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="lib/problem/coverage_problem.rb">lib/problem/coverage_problem.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+			<div id="parent-class-section" class="section">
+				<h3 class="section-header">Parent</h3>
+				
+				<p class="link">Object</p>
+				
+			</div>
+			
+
+			<!-- Namespace Contents -->
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-c-new">::new</a></li>
+					
+					<li><a href="#method-i-cover">#cover</a></li>
+					
+					<li><a href="#method-i-fill_next">#fill_next</a></li>
+					
+					<li><a href="#method-i-render_result">#render_result</a></li>
+					
+					<li><a href="#method-i-solution%3F">#solution?</a></li>
+					
+					<li><a href="#method-i-solve">#solve</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+			<div id="fileindex-section" class="section project-section">
+				<h3 class="section-header">Files</h3>
+				<ul>
+				
+					<li class="file"><a href="./LICENSE.html">LICENSE</a></li>
+				
+					<li class="file"><a href="./README.html">README</a></li>
+				
+					<li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+				
+					<li class="file"><a href="./lib/sample1_txt.html">sample1.txt</a></li>
+				
+					<li class="file"><a href="./nbproject/private/rake-d_txt.html">rake-d.txt</a></li>
+				
+					<li class="file"><a href="./test/test1_txt.html">test1.txt</a></li>
+				
+					<li class="file"><a href="./test/test2_txt.html">test2.txt</a></li>
+				
+				</ul>
+			</div>
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="./images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="./CoverageProblem.html">CoverageProblem</a></li>
+				
+					<li><a href="./CoverageTest.html">CoverageTest</a></li>
+				
+					<li><a href="./InputReader.html">InputReader</a></li>
+				
+					<li><a href="./Line.html">Line</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="class">CoverageProblem</h1>
+
+		<div id="description">
+			<p>
+To change this template, choose Tools | Templates and open the template in
+the editor.
+</p>
+
+		</div>
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+		<div id="attribute-method-details" class="method-section section">
+			<h3 class="section-header">Attributes</h3>
+
+			
+			<div id="m-attribute-method" class="method-detail">
+				<a name="m"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">m</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="lines-attribute-method" class="method-detail">
+				<a name="lines"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">lines</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="cover-ines-attribute-method" class="method-detail">
+				<a name="coverLines"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">coverLines</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+		</div>
+		
+
+		<!-- Methods -->
+		
+		<div id="public-class-method-details" class="method-section section">
+			<h3 class="section-header">Public Class Methods</h3>
+
+		
+			<div id="new-method" class="method-detail ">
+				<a name="method-c-new"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">new</span><span
+						class="method-args">(m, lines)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="new-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/problem/coverage_problem.rb, line 8</span>
+ 8:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">m</span>, <span class="ruby-identifier">lines</span>)
+ 9:     <span class="ruby-ivar">@m</span> = <span class="ruby-identifier">m</span>
+10:     <span class="ruby-ivar">@lines</span> = <span class="ruby-identifier">lines</span>
+11:     <span class="ruby-ivar">@coverLines</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
+12:     <span class="ruby-ivar">@bestSolutionSize</span>=<span class="ruby-value">0</span>;
+13:     
+14:     
+15:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+		<div id="public-instance-method-details" class="method-section section">
+			<h3 class="section-header">Public Instance Methods</h3>
+
+		
+			<div id="cover-method" class="method-detail ">
+				<a name="method-i-cover"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">cover</span><span
+						class="method-args">(indexes, counter)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Tries to cover line
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="cover-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/problem/coverage_problem.rb, line 35</span>
+35:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">cover</span>(<span class="ruby-identifier">indexes</span>, <span class="ruby-identifier">counter</span>)
+36:     <span class="ruby-comment cmt">#Check if current deep is not bigger than best result</span>
+37:     <span class="ruby-keyword kw">if</span>(<span class="ruby-ivar">@bestSolutionSize</span><span class="ruby-operator">!=</span><span class="ruby-value">0</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">counter</span><span class="ruby-operator">&lt;</span><span class="ruby-ivar">@lines</span>.<span class="ruby-identifier">size</span><span class="ruby-operator">-</span><span class="ruby-ivar">@bestSolutionSize</span>)
+38:        <span class="ruby-keyword kw">return</span>
+39:      <span class="ruby-keyword kw">end</span>
+40:    
+41:     <span class="ruby-comment cmt">#Check if given indexes covers whole line</span>
+42:     <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">solution?</span>(<span class="ruby-identifier">indexes</span>)
+43:       
+44:       <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&lt;</span> <span class="ruby-ivar">@coverLines</span>.<span class="ruby-identifier">size</span>) <span class="ruby-operator">||</span> ( <span class="ruby-ivar">@coverLines</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>)
+45:         <span class="ruby-ivar">@coverLines</span>.<span class="ruby-identifier">clear</span>
+46:         <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">size</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+47:           <span class="ruby-ivar">@coverLines</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">indexes</span>[<span class="ruby-identifier">i</span>])
+48:           
+49:         <span class="ruby-keyword kw">end</span>
+50:         
+51:         <span class="ruby-ivar">@bestSolutionSize</span>=<span class="ruby-ivar">@coverLines</span>.<span class="ruby-identifier">size</span>
+52:         
+53:         <span class="ruby-keyword kw">return</span>
+54:       <span class="ruby-keyword kw">end</span>
+55:      
+56:       
+57:     <span class="ruby-keyword kw">end</span>
+58:     <span class="ruby-identifier">previous_fill</span> = <span class="ruby-value">1</span>
+59:      
+60:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">counter</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+61:       <span class="ruby-identifier">new_indexes</span> = <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">dup</span>
+62:       <span class="ruby-identifier">previous_fill</span> = <span class="ruby-identifier">fill_next</span>(<span class="ruby-identifier">new_indexes</span>, <span class="ruby-identifier">previous_fill</span>)
+63:       <span class="ruby-keyword kw">if</span> <span class="ruby-ivar">@lines</span>[<span class="ruby-identifier">previous_fill</span>].<span class="ruby-identifier">negative?</span>
+64:         <span class="ruby-keyword kw">next</span>
+65:       <span class="ruby-keyword kw">end</span>    
+66:      
+67:       <span class="ruby-identifier">cover</span>(<span class="ruby-identifier">new_indexes</span>, <span class="ruby-identifier">counter</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>)
+68:      
+69:       
+70:     <span class="ruby-keyword kw">end</span>
+71:     
+72:     
+73:     
+74:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="fill-next-method" class="method-detail ">
+				<a name="method-i-fill_next"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">fill_next</span><span
+						class="method-args">(indexes, previous_fill)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Search for new index If sorted indexes correspond with array indexes pushes
+next index, otherwise pushed first which does not correspond
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="fill-next-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/problem/coverage_problem.rb, line 78</span>
+ 78:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">fill_next</span>(<span class="ruby-identifier">indexes</span>, <span class="ruby-identifier">previous_fill</span>)
+ 79:     <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">previous_fill</span> <span class="ruby-operator">!=</span> <span class="ruby-value">1</span>
+ 80:       <span class="ruby-identifier">p</span> = <span class="ruby-identifier">previous_fill</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span> 
+ 81:       <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">p</span>)
+ 82:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">p</span>
+ 83:    
+ 84:     <span class="ruby-keyword kw">else</span>
+ 85:       <span class="ruby-identifier">sorted</span> = <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">dup</span>
+ 86:       <span class="ruby-identifier">sorted</span> = <span class="ruby-identifier">sorted</span>.<span class="ruby-identifier">sort!</span>
+ 87:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">sorted</span>.<span class="ruby-identifier">size</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+ 88:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">!=</span> <span class="ruby-identifier">sorted</span>[<span class="ruby-identifier">i</span>]
+ 89:           <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">i</span>)
+ 90:           <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">i</span>
+ 91:         <span class="ruby-keyword kw">end</span>
+ 92:       <span class="ruby-keyword kw">end</span>
+ 93:       <span class="ruby-identifier">index</span> = <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">size</span>
+ 94:       <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">index</span>)
+ 95:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">index</span>;
+ 96:     
+ 97:       
+ 98:     <span class="ruby-keyword kw">end</span>
+ 99:     
+100:     
+101:     
+102:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="render-result-method" class="method-detail ">
+				<a name="method-i-render_result"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">render_result</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="render-result-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/problem/coverage_problem.rb, line 134</span>
+134:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">render_result</span>
+135:     <span class="ruby-identifier">puts</span> <span class="ruby-ivar">@coverLines</span>.<span class="ruby-identifier">size</span>
+136:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-ivar">@coverLines</span>.<span class="ruby-identifier">size</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+137:       <span class="ruby-identifier">puts</span> <span class="ruby-ivar">@lines</span>[<span class="ruby-ivar">@coverLines</span>[<span class="ruby-identifier">i</span>]].<span class="ruby-identifier">x1</span>.<span class="ruby-identifier">to_s</span> <span class="ruby-operator">+</span> <span class="ruby-value str">&quot; &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-ivar">@lines</span>[<span class="ruby-ivar">@coverLines</span>[<span class="ruby-identifier">i</span>]].<span class="ruby-identifier">x2</span>.<span class="ruby-identifier">to_s</span>
+138:     <span class="ruby-keyword kw">end</span>
+139:     <span class="ruby-identifier">puts</span>
+140:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="solution--method" class="method-detail ">
+				<a name="method-i-solution%3F"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">solution?</span><span
+						class="method-args">(indexes)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="solution--source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/problem/coverage_problem.rb, line 104</span>
+104:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">solution?</span>(<span class="ruby-identifier">indexes</span>)
+105:     
+106:     <span class="ruby-identifier">cover</span> = <span class="ruby-value">0</span>;
+107:     <span class="ruby-identifier">start</span> = <span class="ruby-keyword kw">false</span>;
+108:     <span class="ruby-identifier">lines</span>=<span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
+109:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">size</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+110:       <span class="ruby-identifier">line</span>=<span class="ruby-identifier">indexes</span>[<span class="ruby-identifier">i</span>]
+111:       <span class="ruby-identifier">lines</span>.<span class="ruby-identifier">push</span>(<span class="ruby-ivar">@lines</span>[<span class="ruby-identifier">line</span>])
+112:       
+113:     <span class="ruby-keyword kw">end</span>
+114:     
+115:     <span class="ruby-identifier">lines</span> = <span class="ruby-identifier">lines</span>.<span class="ruby-identifier">sort!</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">a</span>,<span class="ruby-identifier">b</span><span class="ruby-operator">|</span> <span class="ruby-identifier">a</span>.<span class="ruby-identifier">x1</span><span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">b</span>.<span class="ruby-identifier">x1</span> }
+116:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">lines</span>.<span class="ruby-identifier">size</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+117:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">lines</span>[<span class="ruby-identifier">j</span>].<span class="ruby-identifier">x1</span><span class="ruby-operator">&lt;=</span><span class="ruby-value">0</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">lines</span>[<span class="ruby-identifier">j</span>].<span class="ruby-identifier">x2</span><span class="ruby-operator">&gt;=</span><span class="ruby-value">0</span>
+118:         <span class="ruby-identifier">start</span>=<span class="ruby-keyword kw">true</span>;
+119:       <span class="ruby-keyword kw">end</span>
+120:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">lines</span>[<span class="ruby-identifier">j</span>].<span class="ruby-identifier">x1</span><span class="ruby-operator">&lt;=</span><span class="ruby-identifier">cover</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">lines</span>[<span class="ruby-identifier">j</span>].<span class="ruby-identifier">x2</span><span class="ruby-operator">&gt;=</span><span class="ruby-identifier">cover</span>
+121:         <span class="ruby-identifier">cover</span>=<span class="ruby-identifier">lines</span>[<span class="ruby-identifier">j</span>].<span class="ruby-identifier">x2</span>
+122:       <span class="ruby-keyword kw">end</span>
+123:     <span class="ruby-keyword kw">end</span>
+124:     
+125:     <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">start</span> <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">cover</span><span class="ruby-operator">&gt;=</span><span class="ruby-ivar">@m</span>)
+126:       <span class="ruby-keyword kw">return</span> <span class="ruby-keyword kw">true</span>
+127:     <span class="ruby-keyword kw">else</span>
+128:       <span class="ruby-keyword kw">return</span> <span class="ruby-keyword kw">false</span>
+129:       
+130:     <span class="ruby-keyword kw">end</span>
+131:     
+132:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="solve-method" class="method-detail ">
+				<a name="method-i-solve"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">solve</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Solves problem
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="solve-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/problem/coverage_problem.rb, line 18</span>
+18:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">solve</span>
+19:     <span class="ruby-comment cmt">#Checks if line segment is not full under 0</span>
+20:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-ivar">@lines</span>.<span class="ruby-identifier">size</span><span class="ruby-operator">-</span><span class="ruby-value">1</span> 
+21:       <span class="ruby-keyword kw">if</span> <span class="ruby-ivar">@lines</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">negative?</span>
+22:         <span class="ruby-keyword kw">next</span>
+23:       <span class="ruby-keyword kw">end</span>
+24:       
+25:       <span class="ruby-identifier">indexes</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
+26:       <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">i</span>)
+27:       
+28:       <span class="ruby-identifier">cover</span>(<span class="ruby-identifier">indexes</span>,<span class="ruby-ivar">@lines</span>.<span class="ruby-identifier">size</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>)
+29:     <span class="ruby-keyword kw">end</span>
+30:     
+31:     
+32:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+
